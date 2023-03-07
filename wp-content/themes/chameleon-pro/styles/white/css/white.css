@@ -1,0 +1,222 @@
+
+/* GLOBAL
+-------------------------------------------------------------------*/
+	body { }
+	blockquote { background:#fff; }
+	a { color:#000; }
+	a:hover { }
+	a:active {  }
+	code { background-color: #f4f4f4; }
+	
+	
+
+/* SEMANTIC CONTAINERS
+-------------------------------------------------------------------*/
+	#footer, #foot-wrap, #copyright { background-image:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/footer.png);  }
+	
+	#navigation { background:#fff; border-top:2px solid #000; }
+	
+	#header, #footer {  border-top:0px solid #d7d7d7; }
+	#header { margin:0; }
+	#foot-wrap { border-top:0px solid #d7d7d7; }
+	#copyright	{  border-top:0px solid #d7d7d7; }
+	
+	
+
+/* CLASSES
+-------------------------------------------------------------------*/
+	.button{ background:#666; color:#fff; }
+	.button:hover{ background:#000; }
+		
+/* HEADINGS
+-------------------------------------------------------------------*/	
+	h1, h2, h3, h4 { color:#000; }
+		
+/* FORM ELEMENTS
+-------------------------------------------------------------------*/	
+	input[type=text]{  }
+	textarea	{ border-top:1px solid #b8b8b8; border-left:1px solid #d9d9d9; border-right:1px solid #f0f0f0; border-bottom:1px solid #e5e5e5; }
+	fieldset	{ border:1px solid #999; }
+	
+	input,textarea,select { background:#fff; color:#999999; }
+	input:focus,textarea:focus,select:focus { -moz-box-shadow:0 0 5px #33ccff; -webkit-box-shadow:0 0 5px #33ccff; box-shadow:0 0 5px #33ccff; border:1px solid #ccc; color:#000;  }
+			
+/*-----------------------------------------------------------------*/
+/* --------------------- START BESPOKE CSS ------------------------*/
+/* ----------------------------------------------------------------*/
+
+/* NAVIGATION
+-------------------------------------------------------------------*/
+
+	#nav a						{ color:#000; text-shadow:none; }
+	#nav .sfHover a, #nav a:hover { color:#fff; background:#000; text-shadow:none; }
+	#nav li.sfHover li.sfHover a{ color:#fff; text-shadow:none; background:#666666; }
+	#nav .current-menu-item a, #nav .current_page_item a{ color:#000; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/red-arrow-down.png) top center no-repeat; }
+	#nav .current-menu-item a:hover, #nav .current_page_item a:hover { text-shadow:none; }
+	#nav .current-menu-item li a, #nav .current_page_item li a{ color:#666; }
+	
+	/*** DEMO SKIN ***/
+	#nav li.sfHover li.sfHover li a, #nav li.sfHover li a, #nav li li a { color:#fff; text-shadow:none; background:#000; }
+	#nav li li:hover, #nav li.sfHover li.sfHover li a:hover,
+	#nav li li a:focus, #nav li li a:hover, #nav li li a:active { color:#fff; text-shadow:none; background:#666666; }
+	#nav li.sfHover li.sfHover li a:hover, #nav li li li a:hover { color:#fff; }
+
+	#nav .mobsocial a.mob-email	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/header-mail.png) no-repeat; }
+	#nav .mobsocial a.mob-fb	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/header-fb.png) no-repeat; }
+	#nav .mobsocial a.mob-tweet	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/header-tweet.png) no-repeat; }
+	#nav .mobsocial a.mob-rss	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/header-rss.png) no-repeat; }
+
+/* HEADER
+-------------------------------------------------------------------*/
+	/* Site Info */
+	.siteinfo					{ color:#000; text-shadow:1px 1px #fff; }
+	.siteinfo:hover				{ color:#000; }
+	.tagline					{ color:#b9b9b9; text-shadow:1px 1px #fff; }
+	
+	/* Top Search */
+	.topsearch input			{ color:#999999; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/search.png) no-repeat 15px 17px #fff; border:1px solid #ccc; }
+	
+/* CONTENT STYLES
+-------------------------------------------------------------------*/
+
+/* Post */
+	.post						{
+	background:#fff;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #f0f0f0;
+	border-right-color: #f0f0f0;
+	border-bottom-color: #f0f0f0;
+	border-left-color: #f0f0f0;
+								   }
+	.date-tag					{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/date-orange.png) no-repeat; color:#fff; text-shadow:1px 1px #747474; }
+	.post a			{ color:#ea4b2b; }
+	.post a:hover				{ color:#cc3300; }
+	.post-details a				{ color:#000; }
+	.post-details a:hover		{ color:#ea4b2b; }
+		
+/* Single */
+	.post-details		{background:#fcfcfa; border:1px solid #f0f0f0; line-height: 33.5px; }
+	
+	/* Author details */
+	.author-details				{ background:#bbc2d0; }
+	.author-details-info		{ color:#fff; text-shadow: 1px 1px 1px #9ba3b5; }
+	.author-details img			{ border:5px solid #fff; }
+ 
+/* Related posts */
+	.related-post				{  
+								  filter: none; -ms-filter: none; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; color:#ef412c; }
+	.related-posts .related-post a { color:#ea4b2b; font-weight:bold;}
+	.related-posts .related-post a:hover { color:#cc3300; text-decoration: none; }
+	.related-posts .related-post .postimg a:hover {   }
+	 
+ 
+/* Pagination */
+	/* Pagination */
+	.pagination					{ }
+	.pagination li a			{  }
+	.pagination li a:hover		{  }
+	.pagination li a.selected	{  }
+	.pagination li.next			{ color:#fff; background:#ef412c; }
+	.pagination li.next a		{ background:#ef412c;}
+	.pagination li.next a:hover	{ background:#cc3300; text-decoration:underline;}
+	.pagination li.previous		{ background:#000; }
+	.pagination li.previous a	{  background:#000;}
+	.pagination li.previous a:hover	{  background:#000; text-decoration:underline;}	
+	.commentcontent				{ background:#fff; }
+	#comments ul li li.byuser .commentcontent,
+	#comments ul .byuser .commentcontent{ border:5px solid #000; }
+	#comments ul li li .commentcontent{ border:5px solid #fff; }
+	
+	a.comment-reply-link		{ background:#f2f2f2; }
+	
+	#comments .avatarwrap		{ border-color:#ccc; }
+	#comments li li.byuser .avatarwrap,
+	#comments .byuser .avatarwrap	{ border-color:#000; }
+	#comments .commentator		{ border-bottom:1px dotted #ccc; }
+	#comments ul li li.byuser .commentarrow,
+	#comments ul .byuser .commentarrow { background: url("https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/commentarrowblue.png") no-repeat scroll 0 0 transparent; }
+	
+	/* Comments form */
+	#comments-form-wrap form input[type=submit]	{ background:#000; color:#fff; }
+	#comments-form-wrap form input[type=submit]:hover{ background:#666; }
+	
+/* contact form */
+	fieldset					{ border:1px solid #c9d1e0; border-top:5px solid #c9d1e0; }
+	legend						{ color:#0061b5; }
+	label span					{ color:#e9242e; }
+	.contactform input.submit	{ background:#000; color:#fff; }
+	.contactform input.submit:hover{ background:#666; }
+	
+/* search */
+	.searchcriteria				{
+	color:#fff;
+	border: 0px solid #d7d7d7;
+}
+	.searchcriteria a			{ color:#000; }	
+	.searchcriteria a:hover		{ color:#ea4b2b; }	
+	.searchcriteriaarrow		{ }
+	
+	.author-details 			{ color:#333; background:#fff; border-top:1px dotted #ccc; text-shadow: 1px 1px 1px #fff; }
+	.author-details-info		{ color:#333; text-shadow: 1px 1px 1px #fff; }
+	
+/* SIDEBAR STYLES ea4b2b
+-------------------------------------------------------------------*/
+	#sidebar .widget,
+	#sidebar .tab_container		{  border:0px solid #d7d7d7; float:right; }
+	#sidebar .tab_container		{ border:2px solid #000; }
+	#sidebar .tab_container a:hover,
+	#sidebar .widget a:hover	{ color:#ea4b2b; text-decoration:underline; }
+	#sidebar .widget-ul li a	{ color:#00baff; }
+	
+	#sidebar .widget-flickr li a{ border:5px solid #d7d7d7; }
+	#sidebar .widget-flickr li a:hover{ border:5px solid #000; }
+	
+	/* Tabs */
+	html .tabs li.active, html .tabs li.active a, html .tabs li.active a:hover { background:#000; color:#fff; text-shadow:1px 1px 1px #747474; }
+	.tab_container{ border:0px solid #000; }
+	
+	.tabs li a { background: -moz-linear-gradient(top, rgba(242,242,242,0.65) 0%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,0.65)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(242,242,242,0.65) 0%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(242,242,242,0.65) 0%,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(242,242,242,0.65) 0%,rgba(232,232,232,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(242,242,242,0.65) 0%,rgba(232,232,232,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6f2f2f2', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */ }
+		html .tabs li a:hover, html .tabs li.active, html .tabs li.active a, html .tabs li.active a:hover { background:#000; border-color:#000; color:#fff; text-shadow:1px 1px 1px #000; }
+	
+	.tab-post-thumb a { border:5px solid #eee; }
+		.tab-post-thumb a:hover { border:5px solid #000; }
+	
+	/* Calendar */
+	#wp-calendar caption { background:#000; color:#fff; text-shadow:1px 1px 1px #747474; }
+	
+	#sidebar .widget ul li a, #sidebar .widget-ul li a { color:#000; }
+	
+/* FOOTER STYLES
+-------------------------------------------------------------------*/
+
+	#foot-wrap					{ color:#999; }
+	
+	#foot-container .backtotop	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/backtotop.png) no-repeat; width:55px; right:-15px; }
+	#foot-container .backtotop:hover	{ background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/backtotop.png) no-repeat bottom left; }
+	
+	#foot-container a			{ color:#999; }
+	#foot-container a:hover		{  }
+	
+	#foot-container .widget-title { color:#fff; }
+	
+	/* Copyright */
+	.copy						{ color:#999; }
+	.copy a						{ color:#fff; }
+	.copy a:hover						{ color:#ea4b2b; }
+
+	
+		
+		

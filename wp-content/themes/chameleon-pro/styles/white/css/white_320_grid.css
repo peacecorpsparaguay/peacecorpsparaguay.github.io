@@ -1,0 +1,163 @@
+
+/* Containers */
+body { padding:0; }
+.container{ margin:0 auto; padding:0 10px; width:240px; }
+.row{ clear:left; }
+
+/* cols Setup */
+.col-0,.col-1,.col-2,.col-3,.col-4,.col-5,.col-0-1,.col-0-1-2,.col-0-1-2-3,.col-0-1-2-3-4,.col-0-1-2-3-4-5,.col-1-2,.col-1-2-3,.col-1-2-3-4,.col-1-2-3-4-5,.col-2-3,.col-2-3-4,.col-2-3-4-5,.col-3-4,.col-3-4-5,.col-4-5,.col-6,.col-7,.col-8,.col-9,.col-6-7,.col-6-7-8,.col-6-7-8-9,.col-7-8,.col-7-8-9,.col-8-9{ display:inline; float:left; margin-left:-10px; }
+
+/* 6-Col Grid Sizes */
+.col-0,.col-1,.col-2,.col-3,.col-4,.col-5{ width:200px; } /* Sixths */
+.col-0-1,.col-1-2,.col-2-3,.col-3-4,.col-4-5{ width:160px; } /* Thirds */
+.col-0-1-2-3,.col-1-2-3-4,.col-2-3-4-5{ width:260px; } /* Two-Thirds */
+.col-0-1-2-3-4,.col-1-2-3-4-5{ width:580px; } /* Five-Sixths */
+.tab_container{ width:240px; margin-left:-10px}
+#sidebar .widget{ width:0px; display:none; }
+
+/* 4-Col Grid Sizes */
+.col-6,.col-7,.col-8,.col-9{ width:160px; } /* Quarters */
+.col-6-7-8,.col-7-8-9{ width:520px; } /* Three-Quarters */
+
+/* 6-Col/4-Col Shared Grid Sizes */
+.col-0-1-2,.col-1-2-3,.col-2-3-4,.col-3-4-5, .col-6-7,.col-7-8,.col-8-9{ width:240px; } /* Halves */
+.col-0-1-2-3-4-5, .col-6-7-8-9{ width: 100%; } /* Full-Width */
+
+/* Zeroing Out Leftmost col Margins */
+.col-0,.col-0-1,.col-0-1-2,.col-0-1-2-3,.col-0-1-2-3-4,.col-0-1-2-3-4-5,.col-6,.col-6-7,.col-6-7-8,.col-6-7-8-9,.col-1 .col-1,.col-1-2 .col-1,.col-1-2 .col-1-2,.col-1-2-3 .col-1,.col-1-2-3 .col-1-2,.col-1-2-3 .col-1-2-3,.col-1-2-3-4 .col-1,.col-1-2-3-4 .col-1-2,.col-1-2-3-4 .col-1-2-3,.col-1-2-3-4 .col-1-2-3-4,.col-1-2-3-4-5 .col-1,.col-1-2-3-4-5 .col-1-2,.col-1-2-3-4-5 .col-1-2-3,.col-1-2-3-4-5 .col-1-2-3-4,.col-1-2-3-4-5 .col-1-2-3-4-5,.col-2 .col-2,.col-2-3 .col-2,.col-2-3 .col-2-3,.col-2-3-4 .col-2,.col-2-3-4 .col-2-3,.col-2-3-4 .col-2-3-4,.col-2-3-4-5 .col-2,.col-2-3-4-5 .col-2-3,.col-2-3-4-5 .col-2-3-4,.col-2-3-4-5 .col-2-3-4-5,.col-3 .col-3,.col-3-4 .col-3,.col-3-4 .col-3-4,.col-3-4-5 .col-3,.col-3-4-5 .col-3-4,.col-3-4-5 .col-3-4-5,.col-4 .col-4,.col-4-5 .col-4,.col-4-5 .col-4-5,.col-5 .col-5,.col-7 .col-7,.col-7-8 .col-7,.col-7-8 .col-7-8,.col-7-8-9 .col-7,.col-7-8-9 .col-7-8,.col-7-8-9 .col-7-8-9,.col-8 .col-8,.col-8-9 .col-8,.col-8-9 .col-8-9{ margin-left:0 !important; } /* Important is to avoid repeating this in larger screen css files */
+
+/* Row Clearfix */
+.row:after{ visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.row{ zoom:1; }
+
+.clearrelated{ clear:both; }
+
+/* THEME STYLES
+-------------------------------------------------------------------*/
+
+	/* Headings */	
+	h1 { font-size:2.3em; }
+	h2 { font-size:1.5em; }
+	h3 { font-size:1em; }
+	
+	.topsearch					{ float:right; padding:20px 0; margin-right:120px; }
+	.post { line-height: 22px;  }
+	.post-details				{   line-height: 33.5px;  }
+	.siteinfo					{ font-size:2.5em; }
+	
+	/* Related posts */
+	.related-posts				{ margin-right:-20px; width:240px; }
+	.related-posts .related-post{ display:inline;  width:110px; margin:0 16px 50px 0; }
+
+	
+	/* Banner placement */
+	.banner-top-full-banner { float:right; padding:10px 0 0 0; }
+	.banner-bottom-full-banner { float:right; padding:10px 0 0 0; }
+	
+	#content.floatL { float:left; }
+	#content.floatR { float:right; }
+	#sidebar.floatL { float:left; }
+	#sidebar.floatR { float:right; }
+	
+	/* Tabs */
+	.tab-wrap { float:left; margin:0 0 30px 0; padding:0; width:100%; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; }
+	.tabs { font-size:0.7em; }
+		.tabs li { }
+		.tabs li a { padding:5px 8px; }
+		
+	#comments .avatarwrap{ margin:10px 0 0 10px; }
+	
+	
+	
+	.textby {text-transform: uppercase;
+color: #999999;
+font-size: 11px;
+margin-top: 0px;
+margin-bottom: -8px;}
+
+.authorline {
+	color: #555;
+font-size: 14px;
+margin-top: -15px;
+margin-bottom: -16px;
+ }
+ 
+ .dateline {
+	font-size: 11px;
+	color: #999999;
+	margin-bottom: -10px;
+	
+	
+	}
+	
+.dateline a {
+	display:none;
+	
+	}
+	
+	.dateline2 {
+	display:none;
+	
+	}
+	
+.topsearch					{  width:140px; height:50px; padding:0; z-index:100; }
+	.topsearch input			{
+	border:none;
+	width:120px;
+	
+	margin-left:50px;
+	font-size:20px;
+	outline:none;
+	padding:10px 15px 10px 45px;
+	color:#666;
+	background-color: #fff;
+	background-image: url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/styles/white/images/search.png);
+	background-repeat: no-repeat;
+	background-position: 15px 13px;}
+	
+	.copycenter					{ margin:0 auto; padding-left:20px; padding-right:20px;}
+	#foot-container .widgetposition	{ float:left;  padding-right:50px; padding-left:20px; }
+	.logo						{ float:left; padding-right:0; font-weight:bold; margin:0 0px -90px 40px; }
+
+	.searchcriteria				{
+	
+	color:#19202c;
+	font-weight:bold;
+	font-size:1.6em;
+	line-height:36px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.authordesc {
+	color: #555;
+font-size: 16px;
+line-height: 22px;
+margin-top: 140px;
+margin-bottom: 0px;
+margin-left: -180px;}
+
+.post-details-info-search-img	{
+	
+	float:left;
+	display:inline;
+	margin-top: -15px;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 0px;
+	padding-left: 30px;
+}
+
+.pagination li.next			{ font-size: 10px; color:#fff; background:#ef412c; }
+.pagination li.next a		{
+	width:90px;
+	border:0 !important;
+	padding-top: 16px;
+	padding-bottom: 16px;}
+.pagination li.previous		{ font-size: 10px; background:#000; }
+.pagination li.previous a	{  border:0 !important; background:#fff; width:90px; padding-top: 16px;
+	padding-bottom: 16px; }
+	
+	.news-submit{ float:left; width:65px; height:50px; padding:7px 10px; margin:0 0 0px 20px; font-size:.9em; outline:none; border:1px solid #f0f0f0; background:#ef412c; color:#fff; }

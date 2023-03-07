@@ -1,0 +1,105 @@
+/* Containers */
+body { font-size: 1.2em;  }
+.container{ width:1206px; }
+
+/* 6-Col Grid Sizes */
+.col-0,.col-1,.col-2,.col-3,.col-4,.col-5{ width:176px; } /* Sixths */
+.col-0-1,.col-1-2,.col-2-3,.col-3-4,.col-4-5{ width:282px; } /* Thirds */
+.col-0-1-2-3,.col-1-2-3-4,.col-2-3-4-5{ width:838px; } /* Two-Thirds */
+.col-0-1-2-3-4,.col-1-2-3-4-5{ width:1000px; } /* Five-Sixths */
+.tab_container{ width:445px; }
+#sidebar .widget{ width:252px; }
+
+/* 4-Col Grid Sizes */
+.col-6,.col-7,.col-8,.col-9{ width:279px; } /* Quarters */
+.col-6-7-8,.col-7-8-9{ width:897px; } /* Three-Quarters */
+
+/* 6-Col/4-Col Shared Grid Sizes */
+.col-0-1-2,.col-1-2-3,.col-2-3-4,.col-3-4-5, .col-6-7,.col-7-8,.col-8-9{ width:588px; } /* Halves */
+
+
+/* THEME STYLES
+-------------------------------------------------------------------*/
+
+	/* Headings */	
+	h1 { font-size:2.7em; }
+	h2 { font-size:1.5em; }
+	h3 { font-size:1em; }
+	
+	.topsearch					{ float:right; padding:20px 0; margin-right:300px; }
+	.post { line-height: 32px; font-size: 1.1em; }
+	.post-details				{  line-height: 33.5px;  }
+	.siteinfo					{ font-size:2.5em; }
+	
+	/* Related posts */
+	.related-posts				{ margin-right:-20px; width:814px; }
+	.related-posts .related-post{ display:inline; float:left; width:110px; margin:0 16px 20px 0; }
+	
+	/* Comments */
+	#comments ul				{ float:left; }
+	#comments ul li				{ float:left; width:100%; }
+	#comments ul ul				{ float:right; width:700px; }
+	.commentlist				{ float:left; width:100%; }
+	
+	.commentcontent				{ float:right; width:665px; padding:18px; }
+	#comments ul .byuser .commentcontent{ float:right; width:655px; }
+	#comments ul li .byuser .commentcontent,
+	#comments ul .byuser li .commentcontent{ float:right; width:570px; }
+	
+	.commentarrow				{ position:absolute; display:block; top:20px; left:-12px; height:23px; width:12px; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/assets/images/commentarrow.png) no-repeat; }
+	#comments ul li li .commentarrow { position:absolute; top:20px; left:-17px; height:23px; width:12px; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/assets/images/commentarrow.png) no-repeat; }
+	#comments ul li li.byuser .commentarrow,
+	#comments ul .byuser .commentarrow { left:-16px; height:23px; width:16px; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/assets/images/commentarrowblue.png) no-repeat; }
+	#comments ul .byuser li .commentarrow { position:absolute; top:20px; left:-17px; height:23px; width:12px; background:url(https://peacecorpsparaguay.github.io/wp-content/themes/chameleon-pro/assets/images/commentarrow.png) no-repeat; }
+	a.comment-reply-link		{ float:right; }
+	
+	#comments .avatar			{ margin:0; }
+	
+	/* Banner placement */
+	.banner-top-full-banner { float:right; padding:10px 0 0 0; }
+	.banner-bottom-full-banner { float:right; padding:10px 0 0 0; }
+	
+	#content.floatL { float:left; }
+	#content.floatR { float:right; }
+	#sidebar.floatL { float:left; }
+	#sidebar.floatR { float:right; }
+	
+	#nav a{ padding:6px 10px 10px 10px; }
+	.single .post-details-info	{ padding:5px 0; }
+	
+/* FORM ELEMENTS
+-------------------------------------------------------------------*/	
+	#content input[type=text]{ padding:7px 10px; }
+	#content textarea	{ padding:7px 10px; }
+	
+		.authordesc {
+	color: #555;
+font-size: 16px;
+line-height: 28px;
+margin-top: -7px;
+margin-bottom: 0px;}
+
+.searchcriteria				{
+	
+	color:#19202c;
+	font-weight:bold;
+	font-size:1.4em;
+	line-height:53px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.post-details-info-search-img	{
+	
+	float:left;
+	display:inline;
+	margin-top: -15px;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 0px;
+	padding-left: 0px;
+	
+	
+}
